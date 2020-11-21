@@ -1,0 +1,112 @@
+person:
+  name: [Stefan, Fleck]
+  position: Data Management and -Engineering
+  address: "Ungargasse 16/11, 1030 Wien, Österreich"
+  mobile: "+43 (0)699 8176 1577"
+  email: stefan.b.fleck@gmail.com
+  github: s-fleck
+  linkedin: s-fleck
+
+
+skills:
+  Programming Languages:
+    - R
+    - Python
+    - SQL
+  Databases:
+    - DB2
+    - Postgres
+    - SQLite
+  Others:
+    - TravisCI
+    - Jenkins
+    - Ansbible
+    - ArcGIS
+    - Qgis
+  Languages:
+    - Deutsch (Muttersprache)
+    - Englisch (Verhandlungssicher)
+
+
+experience:
+  - title: Datenmanagement und -Anaylysei
+    organization: Statistik Austria
+    location: Wien
+    date: "2016 --"
+    description: |
+        * Datenmanagement und mitwirken bei Analyseprojekten
+        * Modernisierung des Datenmanagements und Aufbau einer Datenbank (DB/2)
+        * Mitgestaltung einer mobilen Erhebungsapp für die Straßengüterverkehrserhebung
+        * Entwicklung und Implementierung eines Models zur Verbesserung der Straßengüterverkehrsstatistiken durch LKW-Maut Daten
+
+  - title: Statistical Consultant
+    organization: United Nations Industrial Development Organization (UNIDO) / Statistics Unit
+    date: 2015 (6 Monate)
+    description: |
+      * Auswertung, Darstellung und Bearbeitung von Daten der *UNIDO Industrial Statistics Database*
+      * Analyse von Prognosefehlern bei der Abschätzung ökonomischer Kennzahlen
+      * Erstellen interaktiver Visualisierungs- und Screeningtools in R/Shiny
+
+  - title: Praktikant
+    organization: Technische Universität / Forschungsgruppe Computational Statistics
+    date: 2015 (6 Monate)
+    description: |
+      * Projekt *Survival Modelling of Phenological Data*
+      * Modellierung der Beziehung zwischen phenologischen Events und Klimadaten
+      * Aufbereitung und Analyse von Big Data
+      * Verfassen von Publikationen
+
+  - title: Wissenschaftlicher Mitarbeiter
+    organization: Universität für Bodenkultur / Institut für Hydrobiologie und Gewässermanagement
+    location: Wien
+    date: "2015 -- 2014"
+    description: |
+      * Planung und Durchführung von Analysen des ökologischen Zustandes von Flüssen im europäischen Alpenraum
+      * Verarbeitung von Geodaten in ESRI ArcGIS und R
+      * Kartographische Aufbereitung und Präsentation der Ergebnisse
+      * Datenrecherche, -organisation und -dokumentation
+
+  - title: Praktikant
+    organization: Eidg. Forschungsanstalt für Wald, Schnee und Landschaft (WSL)
+    location: Zürich (CH)
+    date: 2012 (6 Monate)
+    description: |
+      * Planung und Durchführung von Analysen des ökologischen Zustandes von Flüssen im europäischen Alpenraum
+      * Verarbeitung von Geodaten in ESRI ArcGIS und R
+      * Kartographische Aufbereitung und Präsentation der Ergebnisse
+      * Datenrecherche, -organisation und -dokumentation
+
+  - title: Tutor für Geo-Informationssysteme (GIS)
+    organization: Universität für Bodenkultur / Institut für Landschaftsentwicklung, Erholungs- und Naturschutzplanung
+    location: Wien
+    date: 2006 -- 2010
+    description: |
+      * Betreuung von Studierenden bei der Lösung von Aufgabenstellungen in ESRI ArcGIS
+      * Vermittlung von Grundkenntnissen zu Aufbereitung, Analyse und Darstellung von Geodaten
+
+
+education:
+  - degree: Msc Geodäsie und Geoinformation
+    institution: Technische Universität
+    location: Wien
+    date: '2014 -- 2016'
+
+  - degree: Msc Natural Resource Management and Ecological Engineering
+    institution: Universität für Bodenkultur / Lincoln University (Joint Degree)
+    location: Wien / Christchurch (NZ)
+    date: '2009 -- 2012'
+
+  - degree: Bsc Landschaftsplanung und Landschaftsarchitektur
+    institution: Universität für Bodenkultur
+    location: Wien
+    date: '2005 -- 2009'
+
+  - degree: Xplor Environmental Education Student Exchange Program
+    institution: Flinders University
+    location: Adelaide (AU)
+    date: 2007
+
+  - degree: Realgymnasium
+    institution: BG/BRG Keimgasse
+    location: Mödling
+
