@@ -14,7 +14,7 @@
 %
 
 <<read cv data, echo = FALSE>>=
-  library(arcv)
+  library(yamlcv)
   stopifnot(exists("cv"))
 
 @
@@ -26,7 +26,6 @@
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
-
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
@@ -70,7 +69,7 @@ if (exists("photo") && length(photo)){
 
 
 <<results='asis', echo = FALSE>>=
-cat(arcv::render_person(cv$person))
+cat(yamlcv::render_person(cv$person))
 @
 
 
@@ -95,18 +94,18 @@ cat(paste0("{", paste(cv$person$name, collapse = " "), "~~~·~~~Curriculum Vitae
 
 \cvsection{Skills}
 <<results='asis', echo = FALSE>>=
-cat(arcv::render_skills(cv$skills))
+cat(yamlcv::render_skills(cv$skills))
 @
 
 
 \cvsection{Work Experience}
 <<results='asis', echo = FALSE>>=
-cat(arcv::render_experience(cv$experience))
+cat(yamlcv::render_experience(cv$experience))
 @
 
 \cvsection{Education}
 <<results='asis', echo = FALSE>>=
-cat(arcv::render_education(cv$education))
+cat(yamlcv::render_education(cv$education))
 @
 
 

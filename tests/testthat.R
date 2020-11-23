@@ -1,4 +1,4 @@
 library(testthat)
-library(awesomercv)
+library(yamlcv)
 
-test_check("awesomercv")
+test_check("yamlcv")

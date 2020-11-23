@@ -1,17 +1,18 @@
-test_that("multiplication works", {
-  f <- system.file("examples", "experience.yaml", package = "arcv", mustWork = TRUE)
+test_that("render_cv_entry() works", {
+  f <- system.file("examples", "example-cv.yaml", package = "yamlcv", mustWork = TRUE)
   x <- yaml::read_yaml(f)
-  render_cv_entry(x$job[[1]])
+  expect_true(nchar(render_cv_entry(x$experience[[1]])) > 20)
 })
 
 
 
-test_that("multiplication works", {
-  f <- system.file("examples", "experience.yaml", package = "arcv", mustWork = TRUE)
+test_that("rendering cv sections works", {
+  f <- system.file("examples", "example-cv.yaml", package = "yamlcv", mustWork = TRUE)
   x <- read_cv(f)
 
-  render_experience(x$experience)
-  render_education(x$education)
-  cat(render_skills(x$skills))
+  expect_true(nchar(render_experience(x$experience)) > 20)
+  render_education(nchar(render_experience(x$education)) > 20)
+  render_education(nchar(render_experience(x$skills)) > 20)
+  render_skills(x$education)
 })
 
