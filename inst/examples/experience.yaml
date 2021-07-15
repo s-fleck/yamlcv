@@ -1,0 +1,103 @@
+# This cv is provided as an example for the yamlcv package and might be outdated
+
+person:
+  name: [Stefan, Fleck]
+  position: Data Science and -Engineering
+  address: "Vienna, Austria"
+  mobile: "+43 (0)XXX XXXX XXXX"
+  email: stefan.b.fleck@gmail.com
+  github: s-fleck
+  linkedin: s-fleck
+
+
+skills:
+  Programming Languages:
+    - R
+    - Python
+    - SQL
+    - Java (basics)
+    - HTML/CSS (basics)
+  Databases:
+    - DB2
+    - Postgres
+    - SQLite
+  Others:
+    - TravisCI
+    - Jenkins
+    - Ansbible
+    - ArcGIS
+    - Qgis
+  Languages:
+    - German (Mother tongue)
+    - English (Profficient)
+
+
+experience:
+  - title: Data science and -management
+    organization: Statistik Austria
+    location: Vienna
+    date: "2016 -- 2021"
+    description: |
+        * Setting up an alaysis database for management and analysis of transport data (DB/2)
+        * Implementing a REST Service for validation and cleaning GPS data for the Austrian Road Freight Survey mobile app
+        * Development of a model for using truck tolling data to improve European freight transport statistics
+        * Development of R/Shiny web applications
+
+  - title: Statistical Consultant
+    organization: United Nations Industrial Development Organization (UNIDO) / Statistics Unit
+    date: 2015 (6 months)
+    description: |
+      * Analysis of imputation performance concerning economic indicators
+      * Creation of interactive graphs and screening tools in R/Shiny
+
+  - title: Intern
+    organization: Vienna University of Technology / Research Group Computational Statistics
+    location: Vienna
+    date: 2015 (6 months)
+    description: |
+      * Project *Survival Modelling of Phenological Data*
+      * Moddeling of the relation between climate data and the onset of phenological events in several tree species
+      * Big Data management and analysis
+      * Authoring of scientific publications
+
+  - title: Scientific Staff
+    organization: University of Natural Resources and Life Sciences / Institute of Hydrobiology and Aquatic Ecosystem Management
+    location: Vienna
+    date: "2014 -- 2015"
+    description: |
+      * Analyses of geodata on the ecological state of rivers in the European Alps with ESRI ArcGIS and R
+      * Presentation of the results in scientific publications, maps, and reports
+      * Data research, -management, and documentation
+
+  - title: Intern
+    organization: Swiss Federal Institute for Forest, Snow and Landscape Research WSL
+    location: Zürich (CH)
+    date: 2012 (6 months)
+    description: |
+        * Collection of point sample data concerning forest structure in a forest-game research project
+        * Analysis of an ESRI ArcGIS project and development of recommendations for its optimisation
+
+  - title: Tutor for Geographic Information Systems (GIS)
+    organization: University of Natural Resources and Life Sciences / Institute of Landscape Development, Recreation and Conservation Planning
+    location: Vienna
+    date: 2006 -- 2010
+    description: |
+      * Supervision of students
+      * Teaching geodata analysis with ESRI ArcGIS
+
+education:
+
+  - degree: Msc Natural Resource Management and Ecological Engineering
+    institution: University of Natural Resources and Life Sciences / Lincoln University (Joint Degree)
+    location: Vienna (AT) / Christchurch (NZ)
+    date: '2009 -- 2012'
+
+  - degree: Bsc Landscape Planning and Landscape Architecture
+    institution: University of Natural Resources and Life Sciences
+    location: Vienna (AT)
+    date: '2005 -- 2009'
+
+  - degree: Xplor Environmental Education Student Exchange Program
+    institution: Flinders University
+    location: Adelaide (AU)
+    date: 2007

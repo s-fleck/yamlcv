@@ -11,8 +11,6 @@ supported.
 
 ## Installation
 
-
-
 ``` r
 # install.packages("remotes")
 remotes::install_github("s-fleck/yamlcv")
@@ -20,7 +18,31 @@ remotes::install_github("s-fleck/yamlcv")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+**yamlcv** provides a single function for rendering CVs. Please refer to the 
+example file included in the package for details on how the input yaml files
+should be structured.
+
+``` yaml
+# experience.yaml  [excerpt]
+
+experience:
+  - title: Data science and data management
+    organization: Statistik Austria
+    location: Vienna
+    date: "2016 -- 2021"
+    description: |
+        * Setting up an alaysis database for management and analysis of transport data (DB/2)
+        * Implementing a REST Service for validation and cleaning GPS data
+        * Development of a model for using truck tolling data to improve freight statistics
+        * Development of R/Shiny web applications
+
+education:
+  - degree: Msc Natural Resource Management and Ecological Engineering
+    institution: University of Natural Resources and Life Sciences / Lincoln University
+    location: Vienna (AT) / Christchurch (NZ)
+    date: '2009 -- 2012'
+
+```
 
 ``` r
   f <- system.file("examples", "experience.yaml", package = "yamlcv")
